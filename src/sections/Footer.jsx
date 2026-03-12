@@ -48,13 +48,12 @@ const Footer = () => {
     {/* 1st box ends here */}
 
     {/* 2nd box starts here */}
-    <div className='w-full lg:px-20 px-5 py-[60px] bg-gray-100 grid lg:grid-cols-[auto,auto,auto,auto,auto] grid-cols-1 justify-between items-start
-    lg:gap-3 gap-10'>
+    <div className='w-full lg:px-20 px-5 py-[60px] bg-gray-100 grid lg:grid-cols-5 grid-cols-1 justify-between items-start lg:gap-3 gap-10'>
       <div data-aos="zoom-in" data-aos-delay="200" className='flex flex-col justify-center items-start gap-4 grow'>
         <div className='flex flex-col justiy-center items-start gap-4'>
         <h1 className='text-4xl font-bold text=-themepurple underline italic'>Electra Shop</h1>
         <p className='text-gray-500 text-justify'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Nisi volupatatem <br /> doloribus accusamus nequ,<br /> quam laboriosam fugist ipsa distinctio similique cumque?</p>
+          Nisi volupatatem doloribus accusamus nequ, quam laboriosam fugist ipsa distinctio similique cumque?</p>
         </div>         
         <div className='flex flex-col justify-center items-start gap-4'>
           <h1 className='text-black text-xl font-semibold capitalize'>Download our app</h1>
